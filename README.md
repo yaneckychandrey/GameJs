@@ -2,7 +2,7 @@
 
 Game of the snake in Javascript and HTML5 canvas.
 
-[demo](mateuswebprado.github.io/GameJs).
+[demo](http://mateuswebprado.github.io/GameJs/).
 
 ## History
 
