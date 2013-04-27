@@ -79,7 +79,7 @@ PEjs.game = (function() {
 	function drawScore() {
 		contexto.save();
 		contexto.font = 'bold 102px sans-serif';
-		contexto.fillStyle = 'rgba(0, 0, 0, 0.1)';
+		contexto.fillStyle = 'rgba(0, 0, 0, 0.5)';
 		contexto.textAlign = 'center';
 		contexto.textBaseline = 'middle';
 		var centreX = PEjs.width / 2;
@@ -91,7 +91,7 @@ PEjs.game = (function() {
 	function gameOver() {
 		contexto.save();
 		contexto.font = 'bold 30px sans-serif';
-		contexto.fillStyle = 'rgba(0, 0, 0, 0.5)';
+		contexto.fillStyle = 'rgb(71, 165, 194)';
 		contexto.textAlign = 'center';
 		contexto.textBaseline = 'middle';
 		contexto.strokeStyle = 'white';
@@ -106,7 +106,7 @@ PEjs.game = (function() {
 
 	function drawBorder() {
 		contexto.save();
-		contexto.strokeStyle = '#fbca13';
+		contexto.strokeStyle = '#3ebb98';
 		contexto.lineWidth = PEjs.blockSize;
 		contexto.lineCap = 'square';
 		var offset = contexto.lineWidth / 2;
